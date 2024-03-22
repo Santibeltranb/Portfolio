@@ -1,0 +1,1053 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* DISEÑO HOME */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Righteous';
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+    color: white;
+}
+
+.header{
+    align-items: center;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    padding: 20px 10%;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.home{
+    align-items: center;
+    background: url('imagenes/Portada.png') no-repeat;
+    background-size: contain;
+    background-position: right;
+    display: flex;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.container-home{
+    max-width: 700px;
+}
+
+.container-home h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.container-home h3{
+    color: #f0ec00;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.container-home p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.container-home .btn-home{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 345px;
+}
+
+.btn-home a{
+    align-items: center;
+    background: #f0ec00;
+    border: 2px solid #f0ec00;
+    border-radius: 8px;
+    color: #000000;
+    display: inline-flex;
+    font-size: 20px;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+    width: 150px;
+}
+
+.btn-home a::before{
+    background: #000000;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transition: .5s;
+    top: 0;
+    width: 0;
+    z-index: -1;
+}
+
+.btn-home a:hover::before{
+    width: 100%;
+}
+
+.btn-home a:first-child{
+    color: #f0ec00;
+    background: transparent;
+}
+
+.btn-home a:first-child::before{
+    background: #f0ec00;
+}
+
+.btn-home a:first-child:hover{
+    color: #000000;
+}
+
+.logo{
+    color: #f0ec00;
+    font-size: 25px;
+    position: relative;
+    text-decoration: none;
+}
+
+.navbar a{
+    color: white;
+    margin-left: 35px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color: #f0ec00;
+}
+
+.home-social{
+    bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 170px;
+}
+
+.home-social a{
+    align-items: center;
+    background: transparent;
+    border: 2px solid #f0ec00;
+    border-radius: 50%;
+    color: #f0ec00;
+    display: inline-flex;
+    font-size: 20px;
+    height: 40px;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+    width: 40px;
+    z-index: 1;
+}
+
+.home-social a::before{
+    background: #f0ec00;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: .5s;
+    width: 0;
+    z-index: -1;
+}
+
+.home-social a:hover{
+    color: #000000;
+}
+
+.home-social a:hover:before{
+    width: 100%;
+}
+
+.homeHover{
+    background: transparent;
+    height: 100%;
+    position: absolute;
+    right: 310px;
+    top: 100;
+    transition: 3s;
+    width: 820px;
+}
+
+.homeHover:hover{
+    background: #000000;
+    opacity: .8;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */ 
+
+/* DISEÑO EDUCACION */
+
+.education{
+    align-items: center;
+    background: url('imagenes/UTP.png') no-repeat;
+    background-size: 300px;
+    background-position: 1400px;
+    display: flex;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.container-edu .btn-edu{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 345px;
+}
+
+.btn-edu a{
+    align-items: center;
+    background: #f0ec00;
+    border: 2px solid #f0ec00;
+    border-radius: 8px;
+    color: #000000;
+    display: inline-flex;
+    font-size: 20px;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+    width: 150px;
+}
+
+.btn-edu a::before{
+    background: #000000;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transition: .5s;
+    top: 0;
+    width: 0;
+    z-index: -1;
+}
+
+.btn-edu a:hover::before{
+    width: 100%;
+}
+
+.btn-edu a:first-child{
+    color: #f0ec00;
+    background: transparent;
+}
+
+.btn-edu a:first-child::before{
+    background: #f0ec00;
+}
+
+.btn-edu a:first-child:hover{
+    color: #000000;
+}
+
+.container-edu{
+    max-width: 700px;
+}
+
+.container-edu h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.container-edu h3{
+    color: #f0ec00;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.container-edu p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.education img{
+    margin-top: 60px;
+    height: 20vh;
+    padding: 0 100%;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* DISEÑO HABILIDADES */
+
+.habilities{
+    align-items: center;
+    background: url('imagenes/DEV.png') no-repeat;
+    background-position: 950px;
+    display: flex;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.container-hab{
+    max-width: 700px;
+}
+
+.container-hab h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.container-hab h3{
+    color: #f0ec00;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.container-hab p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.hab-logos{
+    bottom: 40px;
+    display: fixed;
+    justify-content: space-between;
+    width: 170px;
+}
+
+.hab-logos a{
+    align-items: center;
+    background: transparent;
+    border: 2px solid #f0ec00;
+    bottom: 25px;
+    border-radius: 50%;
+    color: #f0ec00;
+    display: inline-flex;
+    font-size: 20px;
+    height: 40px;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+    width: 40px;
+    z-index: 1;
+}
+
+.hab-logos a::before{
+    background: #f0ec00;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: .5s;
+    width: 0;
+    z-index: -1;
+}
+
+.hab-logos a:hover{
+    color: #000000;
+}
+
+.hab-logos a:hover:before{
+    width: 100%;
+}
+
+.container-hab .btn-hab{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 345px;
+}
+
+.btn-hab a{
+    align-items: center;
+    background: #f0ec00;
+    border: 2px solid #f0ec00;
+    border-radius: 8px;
+    color: #000000;
+    display: inline-flex;
+    font-size: 20px;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+    width: 150px;
+}
+
+.btn-hab a::before{
+    background: #000000;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transition: .5s;
+    top: 0;
+    width: 0;
+    z-index: -1;
+}
+
+.btn-hab a:hover::before{
+    width: 100%;
+}
+
+.btn-hab a:first-child{
+    color: #f0ec00;
+    background: transparent;
+}
+
+.btn-hab a:first-child::before{
+    background: #f0ec00;
+}
+
+.btn-hab a:first-child:hover{
+    color: #000000;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* DISEÑO PROYECTOS */
+
+.projects{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.container-pro{
+    max-width: 700px;
+}
+
+.container-pro h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.container-pro h3{
+    color: #f0ec00;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.container-pro p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.container-pro .btn-pro{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 345px;
+}
+
+.btn-pro a{
+    align-items: center;
+    background: #f0ec00;
+    border: 2px solid #f0ec00;
+    border-radius: 8px;
+    color: #000000;
+    display: inline-flex;
+    font-size: 20px;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+    width: 150px;
+}
+
+.btn-pro a::before{
+    background: #000000;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transition: .5s;
+    top: 0;
+    width: 0;
+    z-index: -1;
+}
+
+.btn-pro a:hover::before{
+    width: 100%;
+}
+
+.btn-pro a:first-child{
+    color: #f0ec00;
+    background: transparent;
+}
+
+.btn-pro a:first-child::before{
+    background: #f0ec00;
+}
+
+.btn-pro a:first-child:hover{
+    color: #000000;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* DISEÑO KICKZONE */
+
+.proKick{
+    align-items: center;
+    background: url('imagenes/logoKick.png') no-repeat;
+    background-position: 1350px;
+    background-size: 20%;
+    display: flex;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.container-proK{
+    max-width: 700px;
+}
+
+.container-proK h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.container-proK h3{
+    color: #f0ec00;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.container-proK p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.container-proK .btn-kick{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 345px;
+}
+
+.btn-kick a{
+    align-items: center;
+    background: #f0ec00;
+    border: 2px solid #f0ec00;
+    border-radius: 8px;
+    color: #000000;
+    display: inline-flex;
+    font-size: 20px;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+    width: 150px;
+}
+
+.btn-kick a::before{
+    background: #000000;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transition: .5s;
+    top: 0;
+    width: 0;
+    z-index: -1;
+}
+
+.btn-kick a:hover::before{
+    width: 100%;
+}
+
+.btn-kick a:first-child{
+    color: #f0ec00;
+    background: transparent;
+}
+
+.btn-kick a:first-child::before{
+    background: #f0ec00;
+}
+
+.btn-kick a:first-child:hover{
+    color: #000000;
+}
+
+.container-proK .btn-next{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 345px;
+}
+
+.btn-next a{
+    align-items: center;
+    background: #f0ec00;
+    border: 2px solid #f0ec00;
+    border-radius: 8px;
+    color: #000000;
+    display: inline-flex;
+    font-size: 20px;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+    width: 150px;
+}
+
+.btn-next a::before{
+    background: #000000;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transition: .5s;
+    top: 0;
+    width: 0;
+    z-index: -1;
+}
+
+.btn-next a:hover::before{
+    width: 100%;
+}
+
+.btn-next a:first-child{
+    color: #f0ec00;
+    background: transparent;
+}
+
+.btn-next a:first-child::before{
+    background: #f0ec00;
+}
+
+.btn-next a:first-child:hover{
+    color: #000000;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* DISEÑO BOTANICARE */
+
+.proBot{
+    align-items: center;
+    background: url('imagenes/logoBot.jpg') no-repeat;
+    background-position: 1350px;
+    background-size: 20%;
+    display: flex;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.container-proB{
+    max-width: 700px;
+}
+
+.container-proB h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.container-proB h3{
+    color: #f0ec00;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.container-proB p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.container-proB .btn-bot{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 345px;
+}
+
+.btn-bot a{
+    align-items: center;
+    background: #f0ec00;
+    border: 2px solid #f0ec00;
+    border-radius: 8px;
+    color: #000000;
+    display: inline-flex;
+    font-size: 20px;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+    width: 150px;
+}
+
+.btn-bot a::before{
+    background: #000000;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transition: .5s;
+    top: 0;
+    width: 0;
+    z-index: -1;
+}
+
+.btn-bot a:hover::before{
+    width: 100%;
+}
+
+.btn-bot a:first-child{
+    color: #f0ec00;
+    background: transparent;
+}
+
+.btn-bot a:first-child::before{
+    background: #f0ec00;
+}
+
+.btn-bot a:first-child:hover{
+    color: #000000;
+}
+
+.container-proB .btn-next{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 345px;
+}
+
+.btn-next a{
+    align-items: center;
+    background: #f0ec00;
+    border: 2px solid #f0ec00;
+    border-radius: 8px;
+    color: #000000;
+    display: inline-flex;
+    font-size: 20px;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+    width: 150px;
+}
+
+.btn-next a::before{
+    background: #000000;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transition: .5s;
+    top: 0;
+    width: 0;
+    z-index: -1;
+}
+
+.btn-next a:hover::before{
+    width: 100%;
+}
+
+.btn-next a:first-child{
+    color: #f0ec00;
+    background: transparent;
+}
+
+.btn-next a:first-child::before{
+    background: #f0ec00;
+}
+
+.btn-next a:first-child:hover{
+    color: #000000;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* DISEÑO SOBRE MI */
+
+.about{
+    align-items: center;
+    background: url('imagenes/logoCol.jpg') no-repeat;
+    background-position: 1350px;
+    background-size: 20%;
+    display: flex;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.container-about{
+    max-width: 700px;
+}
+
+.container-about h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.container-about h3{
+    color: #f0ec00;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.container-about p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.container-about .btn-hob{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 345px;
+}
+
+.btn-hob a{
+    align-items: center;
+    background: #f0ec00;
+    border: 2px solid #f0ec00;
+    border-radius: 8px;
+    color: #000000;
+    display: inline-flex;
+    font-size: 20px;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+    width: 150px;
+}
+
+.btn-hob a::before{
+    background: #000000;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transition: .5s;
+    top: 0;
+    width: 0;
+    z-index: -1;
+}
+
+.btn-hob a:hover::before{
+    width: 100%;
+}
+
+.btn-hob a:first-child{
+    color: #f0ec00;
+    background: transparent;
+}
+
+.btn-hob a:first-child::before{
+    background: #f0ec00;
+}
+
+.btn-hob a:first-child:hover{
+    color: #000000;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* DISEÑO HOBBIES */
+
+
+.hob{
+    align-items: center;
+    background: url('imagenes/futbol.jpg') no-repeat;
+    background-position: 1350px;
+    background-size: 20%;
+    display: flex;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.container-hob{
+    max-width: 700px;
+}
+
+.container-hob h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.container-hob h3{
+    color: #f0ec00;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.container-hob p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.container-hob .btn-trabajo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 345px;
+}
+
+.btn-trabajo a{
+    align-items: center;
+    background: #f0ec00;
+    border: 2px solid #f0ec00;
+    border-radius: 8px;
+    color: #000000;
+    display: inline-flex;
+    font-size: 20px;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+    width: 150px;
+}
+
+.btn-trabajo a::before{
+    background: #000000;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transition: .5s;
+    top: 0;
+    width: 0;
+    z-index: -1;
+}
+
+.btn-trabajo a:hover::before{
+    width: 100%;
+}
+
+.btn-trabajo a:first-child{
+    color: #f0ec00;
+    background: transparent;
+}
+
+.btn-trabajo a:first-child::before{
+    background: #f0ec00;
+}
+
+.btn-trabajo a:first-child:hover{
+    color: #000000;
+}
+
+
+.work{
+    align-items: center;
+    background: url('imagenes/trabajo.jpg') no-repeat;
+    background-position: 1350px;
+    background-size: 20%;
+    display: flex;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.container-trab{
+    max-width: 700px;
+}
+
+.container-trab h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.container-trab h3{
+    color: #f0ec00;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.container-trab p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.container-trab span{
+    color: #f0ec00;
+}
+
+.container-trab .btn-regresar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 345px;
+}
+
+.btn-regresar a{
+    align-items: center;
+    background: #f0ec00;
+    border: 2px solid #f0ec00;
+    border-radius: 8px;
+    color: #000000;
+    display: inline-flex;
+    font-size: 20px;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+    width: 150px;
+}
+
+.btn-regresar a::before{
+    background: #000000;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transition: .5s;
+    top: 0;
+    width: 0;
+    z-index: -1;
+}
+
+.btn-regresar a:hover::before{
+    width: 100%;
+}
+
+.btn-regresar a:first-child{
+    color: #f0ec00;
+    background: transparent;
+}
+
+.btn-regresar a:first-child::before{
+    background: #f0ec00;
+}
+
+.btn-regresar a:first-child:hover{
+    color: #000000;
+}
