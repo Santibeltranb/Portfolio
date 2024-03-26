@@ -874,6 +874,148 @@ body{
     color: #000000;
 }
 
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* DISEÑO ANGULAR */
+
+.proAng{
+    align-items: center;
+    background: url('imagenes/logoAng.png') no-repeat;
+    background-position: 1350px;
+    background-size: 20%;
+    display: flex;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.container-proA{
+    max-width: 700px;
+}
+
+.container-proA h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.container-proA h3{
+    color: #f0ec00;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.container-proA p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.container-proA .btn-Ang{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 345px;
+}
+
+.btn-Ang a{
+    align-items: center;
+    background: #f0ec00;
+    border: 2px solid #f0ec00;
+    border-radius: 8px;
+    color: #000000;
+    display: inline-flex;
+    font-size: 20px;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+    width: 150px;
+}
+
+.btn-Ang a::before{
+    background: #000000;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transition: .5s;
+    top: 0;
+    width: 0;
+    z-index: -1;
+}
+
+.btn-Ang a:hover::before{
+    width: 100%;
+}
+
+.btn-Ang a:first-child{
+    color: #f0ec00;
+    background: transparent;
+}
+
+.btn-Ang a:first-child::before{
+    background: #f0ec00;
+}
+
+.btn-Ang a:first-child:hover{
+    color: #000000;
+}
+
+.container-proA .btn-next{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 345px;
+}
+
+.btn-next a{
+    align-items: center;
+    background: #f0ec00;
+    border: 2px solid #f0ec00;
+    border-radius: 8px;
+    color: #000000;
+    display: inline-flex;
+    font-size: 20px;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+    width: 150px;
+}
+
+.btn-next a::before{
+    background: #000000;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transition: .5s;
+    top: 0;
+    width: 0;
+    z-index: -1;
+}
+
+.btn-next a:hover::before{
+    width: 100%;
+}
+
+.btn-next a:first-child{
+    color: #f0ec00;
+    background: transparent;
+}
+
+.btn-next a:first-child::before{
+    background: #f0ec00;
+}
+
+.btn-next a:first-child:hover{
+    color: #000000;
+}
+
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* DISEÑO HOBBIES */
@@ -962,6 +1104,11 @@ body{
 .btn-trabajo a:first-child:hover{
     color: #000000;
 }
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* DISEÑO TRABAJO */
+
 
 
 .work{
